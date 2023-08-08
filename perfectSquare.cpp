@@ -22,9 +22,9 @@ int main()
 	
 	x = 7;
 	if (isPerfectSquare(x))
-		cout <<"\n"<<x<<" is a Perfect Sqaure";
+		cout <<"\n\n"<<x<<" is a Perfect Sqaure";
 	else
-		cout <<"\n"<<x<<" is not a Perfect Sqaure";
+		cout <<"\n\n"<<x<<" is not a Perfect Sqaure";
 	return 0;
 }
 
