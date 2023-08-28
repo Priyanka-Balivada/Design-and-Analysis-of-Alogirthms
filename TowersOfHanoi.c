@@ -1,5 +1,6 @@
 //Program to implement Tower of Hanoi
 #include<stdio.h>
+#include<math.h>
 void tower(int n,char a[],char b[],char c[])
 {
 	if(n==1)
@@ -25,7 +26,7 @@ void main()
 	}
 	else
 	{
-	printf("\n\nMoves required to move all disks to final peg for N = %d : %d",n,2^n-1);
+	printf("\n\nMoves required to move all disks to final peg for N = %d : %d",n,(int)pow(2, n)-1);
 	tower(n,"A","B","C");
 //	tower(n,"BEG","AUX","END");
 	}

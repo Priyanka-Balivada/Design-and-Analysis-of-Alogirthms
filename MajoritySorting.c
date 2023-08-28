@@ -1,13 +1,12 @@
-//Program for Merge Sort
 #include<stdio.h>
 
 void mergesort(int [],int,int);
 void merge(int [],int,int);
 void main()
 {
-	int a[10]={4,5,6,4,9,3,4,8,4,4},i,n=10,count=0,maj=0;
+	int a[10]={4,5,6,4,9,4,4,8,4,4},i,n=10,count=0,maj=0;
 	i=0;
-	mergesort(a,i,n-1);s
+	mergesort(a,i,n-1);
 	printf("\n\nSorted Array :");
 	for(i=0;i<n;i++)
 	{
